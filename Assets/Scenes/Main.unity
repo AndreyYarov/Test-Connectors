@@ -326,6 +326,11 @@ MonoBehaviour:
   Radius: 10
   Count: 10
   Prefab: {fileID: 7506118316419136956, guid: 34741b90a6f20bd43b73f889865c454c, type: 3}
+  LinePrefab: {fileID: -5234240032331956114, guid: fe02d21fa3f4fa64599870ee853573a6,
+    type: 3}
+  DefaultMaterial: {fileID: 2100000, guid: 823b82457e3b8ae429b8dfd1c5f60e59, type: 2}
+  ActiveMaterial: {fileID: 2100000, guid: be6d1845bdcbadf4b80ef020e40cb673, type: 2}
+  InactiveMaterial: {fileID: 2100000, guid: 8636598206e63de4496a7a2f6b07a7f8, type: 2}
 --- !u!4 &1288515605
 Transform:
   m_ObjectHideFlags: 0
@@ -334,7 +339,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288515603}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7954817, y: 1.0313444, z: -0.34267187}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

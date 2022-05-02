@@ -229,3 +229,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b1ff99c12379b4e8b0917242fea60e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sphere: {fileID: 6748276688876454120}
+  Platform: {fileID: 6625398939140064837}

@@ -8,4 +8,16 @@ public class Connectable : MonoBehaviour
 
     public Collider Sphere;
     public Collider Platform;
+
+    private Renderer rnd;
+
+    private void Start()
+    {
+        rnd = Sphere.GetComponent<Renderer>();
+    }
+
+    public void SetMaterial(Material material)
+    {
+        rnd.material = material;
+    }
 }
