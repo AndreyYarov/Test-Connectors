@@ -108,6 +108,7 @@ public class Main : MonoBehaviour
                         foreach (var obj in connectables)
                             obj.SetMaterial(DefaultMaterial);
                         DestroyImmediate(line.gameObject);
+                        yield return null;
                         yield break;
                     }
                     else
